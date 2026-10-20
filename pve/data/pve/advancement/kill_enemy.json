@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "killed_enemy": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#pve:enemy_tag",
+          "nbt": "{Tags:[\"pve_enemy\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pve:mob_kill"
+  },
+  "sends_telemetry_event": false
+}

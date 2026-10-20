@@ -1,0 +1,43 @@
+
+# match to pve:waves/x/set_groups.mcfunction
+execute if score currentWave pve matches 1 run function pve:waves/1/set_groups
+execute if score currentWave pve matches 2 run function pve:waves/2/set_groups
+execute if score currentWave pve matches 3 run function pve:waves/3/set_groups
+execute if score currentWave pve matches 4 run function pve:waves/4/set_groups
+execute if score currentWave pve matches 5 run function pve:waves/5/set_groups
+execute if score currentWave pve matches 6 run function pve:waves/6/set_groups
+execute if score currentWave pve matches 7 run function pve:waves/7/set_groups
+execute if score currentWave pve matches 8 run function pve:waves/8/set_groups
+execute if score currentWave pve matches 9 run function pve:waves/9/set_groups
+execute if score currentWave pve matches 10 run function pve:waves/10/set_groups
+execute if score currentWave pve matches 11 run function pve:waves/11/set_groups
+execute if score currentWave pve matches 12 run function pve:waves/12/set_groups
+execute if score currentWave pve matches 13 run function pve:waves/13/set_groups
+execute if score currentWave pve matches 14 run function pve:waves/14/set_groups
+execute if score currentWave pve matches 15 run function pve:waves/15/set_groups
+execute if score currentWave pve matches 16 run function pve:waves/16/set_groups
+execute if score currentWave pve matches 17 run function pve:waves/17/set_groups
+execute if score currentWave pve matches 18 run function pve:waves/18/set_groups
+execute if score currentWave pve matches 19 run function pve:waves/19/set_groups
+execute if score currentWave pve matches 20 run function pve:waves/20/set_groups
+
+execute if score currentWave pve matches 1 run function pve:waves/1/loop
+execute if score currentWave pve matches 2 run function pve:waves/2/loop
+execute if score currentWave pve matches 3 run function pve:waves/3/loop
+execute if score currentWave pve matches 4 run function pve:waves/4/loop
+execute if score currentWave pve matches 5 run function pve:waves/5/loop
+execute if score currentWave pve matches 6 run function pve:waves/6/loop
+execute if score currentWave pve matches 7 run function pve:waves/7/loop
+execute if score currentWave pve matches 8 run function pve:waves/8/loop
+execute if score currentWave pve matches 9 run function pve:waves/9/loop
+execute if score currentWave pve matches 10 run function pve:waves/10/loop
+execute if score currentWave pve matches 11 run function pve:waves/11/loop
+execute if score currentWave pve matches 12 run function pve:waves/12/loop
+execute if score currentWave pve matches 13 run function pve:waves/13/loop
+execute if score currentWave pve matches 14 run function pve:waves/14/loop
+execute if score currentWave pve matches 15 run function pve:waves/15/loop
+execute if score currentWave pve matches 16 run function pve:waves/16/loop
+execute if score currentWave pve matches 17 run function pve:waves/17/loop
+execute if score currentWave pve matches 18 run function pve:waves/18/loop
+execute if score currentWave pve matches 19 run function pve:waves/19/loop
+execute if score currentWave pve matches 20 run function pve:waves/20/loop

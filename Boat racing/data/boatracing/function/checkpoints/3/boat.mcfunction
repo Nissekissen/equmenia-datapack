@@ -1,0 +1,1 @@
+execute at @s run summon spruce_boat ~ ~ ~ {Tags:["boat_summoning"],Rotation:[0f,0f]}

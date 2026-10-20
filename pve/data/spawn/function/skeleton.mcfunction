@@ -1,0 +1,1 @@
+summon minecraft:skeleton ~ ~ ~ {Tags:["pve_skeleton", "pve_enemy"], PersistenceRequired: true, CanPickUpLoot: false, DeathLootTable:"pve:enemy"}

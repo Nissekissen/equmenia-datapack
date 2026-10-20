@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {Tags:["pve_zombie", "pve_enemy"], PersistenceRequired: true, CanPickUpLoot: false, DeathLootTable:"pve:enemy"}

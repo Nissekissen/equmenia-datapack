@@ -1,0 +1,8 @@
+{
+    "values": [
+        "pve:load",
+        "random:load",
+        "spawn:load",
+        "traps:load"
+    ]
+}

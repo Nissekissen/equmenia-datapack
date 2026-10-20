@@ -1,0 +1,21 @@
+
+execute if score currentWave pve matches 1 run function pve:waves/1/spawnzombie
+execute if score currentWave pve matches 2 run function pve:waves/2/spawnzombie
+execute if score currentWave pve matches 3 run function pve:waves/3/spawnzombie
+execute if score currentWave pve matches 4 run function pve:waves/4/spawnzombie
+execute if score currentWave pve matches 5 run function pve:waves/5/spawnzombie
+execute if score currentWave pve matches 6 run function pve:waves/6/spawnzombie
+execute if score currentWave pve matches 7 run function pve:waves/7/spawnzombie
+execute if score currentWave pve matches 8 run function pve:waves/8/spawnzombie
+execute if score currentWave pve matches 9 run function pve:waves/9/spawnzombie
+execute if score currentWave pve matches 10 run function pve:waves/10/spawnzombie
+execute if score currentWave pve matches 11 run function pve:waves/11/spawnzombie
+execute if score currentWave pve matches 12 run function pve:waves/12/spawnzombie
+execute if score currentWave pve matches 13 run function pve:waves/13/spawnzombie
+execute if score currentWave pve matches 14 run function pve:waves/14/spawnzombie
+execute if score currentWave pve matches 15 run function pve:waves/15/spawnzombie
+execute if score currentWave pve matches 16 run function pve:waves/16/spawnzombie
+execute if score currentWave pve matches 17 run function pve:waves/17/spawnzombie
+execute if score currentWave pve matches 18 run function pve:waves/18/spawnzombie
+execute if score currentWave pve matches 19 run function pve:waves/19/spawnzombie
+execute if score currentWave pve matches 20 run function pve:waves/20/spawnzombie

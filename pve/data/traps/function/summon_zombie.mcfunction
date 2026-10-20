@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {DeathLootTable: "pve:enemy", Tags: ["trap_enemy"]}

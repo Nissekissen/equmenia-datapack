@@ -1,0 +1,3 @@
+
+execute if score in_wave pve matches 1 run title @s actionbar [{"text": "Monster kvar: ", "color": "red"}, {"score": {"name": "zombieCount", "objective": "pve"}, "color": "red", "bold": true}, {"text": " | ", "color": "white", "bold": false}, {"text": "Spelare kvar: ", "color": "green", "bold": false}, {"score": {"name": "playersLeft", "objective": "pve"}, "color": "green", "bold": true}]
+execute if score waiting pve matches 1 run title @s actionbar [{"text": "Tid kvar till nästa våg: ", "color": "blue"}, {"score": {"name": "timerSeconds", "objective": "pve"}, "color": "blue", "bold": true}, {"text": " sekunder", "color": "blue", "bold": false}]
