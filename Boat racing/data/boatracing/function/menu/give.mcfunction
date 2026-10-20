@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.$(slot) with $(item)[custom_name={"text":"$(name)", "italic":false}, custom_data={menu:{run:"$(run)", arg:"$(arg)"}}, consumable={consume_seconds:3600, animation:"none", has_consume_particles: false, sound:"minecraft:intentionally_empty"}]

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "click": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{menu:{}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "boatracing:menu/click"
+    }
+}

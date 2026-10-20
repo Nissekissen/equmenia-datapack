@@ -9,6 +9,9 @@ scoreboard objectives add br_minutes dummy
 scoreboard objectives add br_highscore dummy
 scoreboard objectives add br_id dummy
 
+scoreboard objectives add br_practice dummy
+scoreboard objectives add br_menu_hold dummy
+
 function boatracing:leaderboard/init
 
 # execute as @a run scoreboard players set @s br_in_game 0
