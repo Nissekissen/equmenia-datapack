@@ -10,3 +10,10 @@ function boatracing:leaderboard/insert_start
 tellraw @s {"text": "Nytt personbästa!", "color": "gold"}
 
 function boatracing:leaderboard/refresh
+
+# update split times
+scoreboard players operation @s br_pb1 = @s br_split1
+scoreboard players operation @s br_pb2 = @s br_split2
+scoreboard players operation @s br_pb3 = @s br_split3
+scoreboard players operation @s br_pb4 = @s br_split4
+scoreboard players operation @s br_pb5 = @s br_split5

@@ -1,2 +1,2 @@
-tellraw @s {"text": "Du har nått checkpoint 4!", "color": "green"}
+function boatracing:checkpoints/split {n: 4}
 scoreboard players set @s checkpoint 4

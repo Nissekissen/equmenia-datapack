@@ -6,3 +6,4 @@ scoreboard players set 10 br 10
 scoreboard players set 20 br 20
 scoreboard players set 60 br 60
 scoreboard players set 1200 br 1200
+scoreboard players set neg1 br -1
