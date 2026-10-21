@@ -13,5 +13,6 @@ function boatracing:menu/give {slot: 3, name: "Checkpoint 4", run: "boatracing:m
 function boatracing:menu/give {slot: 4, name: "Checkpoint 5", run: "boatracing:menu/practice/tp", arg: "5", item: "minecraft:yellow_dye"}
 function boatracing:menu/give {slot: 8, name: "Lämna övningsläget", run: "boatracing:menu/practice/exit", arg: "none", item: "minecraft:red_dye"}
 
+execute on vehicle run return 0
 function boatracing:checkpoints/teleport
 function boatracing:spawn_boat
