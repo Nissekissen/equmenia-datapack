@@ -4,7 +4,6 @@ execute as @a unless score @s br_practice matches 0.. run scoreboard players set
 execute as @a unless score @s br_id matches 1.. run function boatracing:assign_id
 function boatracing:checkpoints/loop
 execute as @a[scores={br_in_game=1}] run function boatracing:timer/loop
-execute as @a[scores={br_in_game=1}] run function boatracing:reset/loop
 execute as @a[scores={br_in_game=1}] at @s run function boatracing:check_boat
 execute as @a[scores={br_practice=1}] at @s run function boatracing:check_boat
 

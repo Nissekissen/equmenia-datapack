@@ -1,1 +1,1 @@
-item replace entity @s hotbar.0 with snowball[custom_name={"text": "Starta om från början", "italic": false, "color": "red"}] 1
+function boatracing:menu/give {slot: 0, name: "Starta om från början", run: "boatracing:reset/restart", arg: "none", item: "minecraft:redstone"}
