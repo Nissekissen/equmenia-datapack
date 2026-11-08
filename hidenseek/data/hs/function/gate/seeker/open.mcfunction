@@ -1,2 +1,2 @@
-fill -495 130 -286 -495 132 -284 air
-fill -495 132 -286 -495 132 -284 tripwire
+data modify storage hs:tmp cmds set from storage hs:game map.seeker_gate.open
+function hs:run_cmds

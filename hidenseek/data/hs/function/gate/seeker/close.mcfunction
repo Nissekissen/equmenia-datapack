@@ -1,1 +1,2 @@
-fill -495 130 -286 -495 132 -284 tinted_glass
+data modify storage hs:tmp cmds set from storage hs:game map.seeker_gate.close
+function hs:run_cmds

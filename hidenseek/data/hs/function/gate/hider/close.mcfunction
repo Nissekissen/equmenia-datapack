@@ -1,1 +1,2 @@
-fill -505 128 -283 -501 128 -287 white_stained_glass replace air
+data modify storage hs:tmp cmds set from storage hs:game map.hider_gate.close
+function hs:run_cmds
