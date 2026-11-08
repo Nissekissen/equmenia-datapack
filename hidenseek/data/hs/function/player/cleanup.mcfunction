@@ -1,6 +1,7 @@
 scoreboard players reset @s hs.game
 team leave @s
 tag @s remove hs.player
+tag @s remove hs.last
 effect clear @s minecraft:speed
 effect clear @s minecraft:strength
 effect clear @s minecraft:blindness

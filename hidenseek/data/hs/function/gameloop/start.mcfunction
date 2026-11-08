@@ -7,3 +7,5 @@ effect clear @a[team=Hider] minecraft:speed
 execute as @a[tag=hs.player] at @s run playsound minecraft:entity.ender_dragon.ambient block @s ~ ~ ~ 1 1
 
 function hs:gate/seeker/open
+
+execute if score #seekTime HS matches 1.. run function hs:gameloop/start_timer
