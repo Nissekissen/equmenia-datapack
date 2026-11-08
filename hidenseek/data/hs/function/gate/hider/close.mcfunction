@@ -1,0 +1,1 @@
+fill -505 128 -283 -501 128 -287 white_stained_glass replace air
