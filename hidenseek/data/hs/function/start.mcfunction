@@ -11,8 +11,14 @@ execute store result score #players HS if entity @a[team=Hider]
 execute if score #players HS matches ..1 run tellraw @s {text: "Det krävs minst två spelare i lobbyn för att starta.", color: "red"}
 execute if score #players HS matches ..1 run return run function hs:reset
 
+execute store result score #chosen HS if entity @a[team=Hider, tag=hs.chosen]
+scoreboard players operation #seekersLeft HS = #maxSeekers HS
+scoreboard players operation #seekersLeft HS > #chosen HS
+
+execute if score #seekersLeft HS >= #players HS run tellraw @s {text: "För många seekers för antalet spelare", color: "red"}
+execute if score #seekersLeft HS >= #players HS run return run function hs:reset
+
 scoreboard players operation #startCountdown HS = #startTime HS
 scoreboard players add #startCountdown HS 1
 scoreboard players set #startCooldown HS 20
-scoreboard players operation #seekersLeft HS = #maxSeekers HS
 scoreboard players set #phase HS 1

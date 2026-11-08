@@ -12,3 +12,4 @@ item replace entity @a[team=Seeker] armor.head with minecraft:dragon_head
 execute store result bossbar timer max run scoreboard players get #hideTime HS
 bossbar set timer visible true
 
+tag @a remove hs.chosen

@@ -1,6 +1,10 @@
 # players who disconnected and came back
 execute as @a[scores={hs.left=1..}] run function hs:player/rejoin
 
+# /trigger hs.join takes you to the selected map's lobby
+scoreboard players enable @a hs.join
+execute as @a[scores={hs.join=1..}] run function hs:join
+
 # derived participant tag
 execute if score #phase HS matches 1.. run function hs:participants/sync
 

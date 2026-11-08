@@ -1,0 +1,1 @@
+$tellraw @s [{text: " • $(name) (ofullständig)", color: "dark_gray"}, " ", {text: "[✎]", color: "gray", click_event: {action: "run_command", command: "/function hs:edit {id:'$(id)'}"}, hover_event: {action: "show_text", value: "Redigera $(name)"}}]
