@@ -1,0 +1,2 @@
+execute unless data storage hs:edit map run return run tellraw @s {text: 'Välj en karta först: /function hs:edit {id: "..."}', color: "red"}
+function hs:map/set_seeker_spawn with storage hs:edit map
