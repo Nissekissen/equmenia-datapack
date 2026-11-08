@@ -1,3 +1,5 @@
+execute as @e[type=player, tag=hs.player, scores={hs.deaths=1..}] run function hs:countdown/death
+
 scoreboard players remove #countdownCooldown HS 1
 execute if score #countdownCooldown HS matches ..0 run scoreboard players remove #countdown HS 1
 execute if score #countdownCooldown HS matches ..0 if score #countdown HS matches 1..5 run title @a[tag=hs.player] title {score: {name: "#countdown", objective: "HS"}, color: "red"}
