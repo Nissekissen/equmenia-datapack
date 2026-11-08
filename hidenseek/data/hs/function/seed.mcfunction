@@ -12,4 +12,4 @@ data modify storage hs:maps registry.bathroom.seeker_gate.close append value {cm
 data modify storage hs:maps list insert 0 value {id: "bathroom", name: "Badrummet"}
 data modify storage hs:maps seeded set value 1b
 
-function hs:select_map {id: "bathroom"}
+# function hs:select_map {id: "bathroom"}
